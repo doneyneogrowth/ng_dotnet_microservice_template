@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Doney Jacob Mathew",
+  "identity": "NeoGrowth.Microservice.Template",
+  "name": "NeoGrowth Microservice Template",
+  "shortName": "ngmssln",
+  "tags": {
+      "language": "C#",
+      "type": "project"
+  },
+  "sourceName": "NgTemplate",
+  "classifications": ["Service","Web","Solution"],
+  "preferNameDirectory": true,
+   "guids": [
+    "C3D54AA9-E9E8-4965-8230-B67549D8AF8A",
+    "FCE738D0-BB73-4DDB-9BD0-613146F5F9ED"
+  ],
+}

@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26124.0
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BDB00C0D-0ED9-4EB5-AAA0-882D583C0654}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NgTemplate.API", "src\NgTemplate.API\NgTemplate.API.csproj", "{C3D54AA9-E9E8-4965-8230-B67549D8AF8A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{BDFE5A32-BEB5-4699-A31D-95A7054D23BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NgTemplate.UnitTests", "tests\NgTemplate.UnitTests\NgTemplate.UnitTests.csproj", "{FCE738D0-BB73-4DDB-9BD0-613146F5F9ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3D54AA9-E9E8-4965-8230-B67549D8AF8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3D54AA9-E9E8-4965-8230-B67549D8AF8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3D54AA9-E9E8-4965-8230-B67549D8AF8A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C3D54AA9-E9E8-4965-8230-B67549D8AF8A}.Debug|x64.Build.0 = Debug|Any CPU
+		{C3D54AA9-E9E8-4965-8230-B67549D8AF8A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C3D54AA9-E9E8-4965-8230-B67549D8AF8A}.Debug|x86.Build.0 = Debug|Any CPU
+		{C3D54AA9-E9E8-4965-8230-B67549D8AF8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3D54AA9-E9E8-4965-8230-B67549D8AF8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3D54AA9-E9E8-4965-8230-B67549D8AF8A}.Release|x64.ActiveCfg = Release|Any CPU
+		{C3D54AA9-E9E8-4965-8230-B67549D8AF8A}.Release|x64.Build.0 = Release|Any CPU
+		{C3D54AA9-E9E8-4965-8230-B67549D8AF8A}.Release|x86.ActiveCfg = Release|Any CPU
+		{C3D54AA9-E9E8-4965-8230-B67549D8AF8A}.Release|x86.Build.0 = Release|Any CPU
+		{FCE738D0-BB73-4DDB-9BD0-613146F5F9ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCE738D0-BB73-4DDB-9BD0-613146F5F9ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCE738D0-BB73-4DDB-9BD0-613146F5F9ED}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{FCE738D0-BB73-4DDB-9BD0-613146F5F9ED}.Debug|x64.Build.0 = Debug|Any CPU
+		{FCE738D0-BB73-4DDB-9BD0-613146F5F9ED}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FCE738D0-BB73-4DDB-9BD0-613146F5F9ED}.Debug|x86.Build.0 = Debug|Any CPU
+		{FCE738D0-BB73-4DDB-9BD0-613146F5F9ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCE738D0-BB73-4DDB-9BD0-613146F5F9ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCE738D0-BB73-4DDB-9BD0-613146F5F9ED}.Release|x64.ActiveCfg = Release|Any CPU
+		{FCE738D0-BB73-4DDB-9BD0-613146F5F9ED}.Release|x64.Build.0 = Release|Any CPU
+		{FCE738D0-BB73-4DDB-9BD0-613146F5F9ED}.Release|x86.ActiveCfg = Release|Any CPU
+		{FCE738D0-BB73-4DDB-9BD0-613146F5F9ED}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C3D54AA9-E9E8-4965-8230-B67549D8AF8A} = {BDB00C0D-0ED9-4EB5-AAA0-882D583C0654}
+		{FCE738D0-BB73-4DDB-9BD0-613146F5F9ED} = {BDFE5A32-BEB5-4699-A31D-95A7054D23BF}
+	EndGlobalSection
+EndGlobal
