@@ -1,6 +1,7 @@
 # Useful things
 
-Command to pack nuget package - dotnet pack -p:PackageVersion=1.0.3
+Command to pack nuget package - dotnet pack -p:PackageVersion=1.0.3 --NoDefaultExcludes
+
 
 ## Update project
 

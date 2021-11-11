@@ -1,0 +1,24 @@
+
+
+version: 0.2
+
+phases:
+    install:
+        runtime-versions:
+            dotnet: 5.0
+    pre_build:
+        commands:
+            - echo restore started on `date`
+            - dotnet restore ./src/NgTemplate.API/NgTemplate.API.csproj
+            - dotnet restore ./tests/NgTemplate.UnitTests/NgTemplate.UnitTests.csproj
+    build:
+        commands:
+            - echo build started on `date`
+            - dotnet build -c Release ./src/NgTemplate.API/NgTemplate.API.csproj
+            - dotnet test -c Release ./tests/NgTemplate.UnitTests/NgTemplate.UnitTests.csproj --logger trx --results-directory ./testresults
+reports:
+    DotnetTestExamples:
+        file-format: VisualStudioTrx
+        files:
+            - '**/*'
+        base-directory: './testresults'

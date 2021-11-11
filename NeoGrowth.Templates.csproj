@@ -10,7 +10,7 @@
     <PackageTags>dotnet-new;templates;NeoGrowth</PackageTags>
 
     <TargetFramework>net5.0</TargetFramework>
-
+	<NoDefaultExcludes>true</NoDefaultExcludes>
     <IncludeContentInPack>true</IncludeContentInPack>
     <IncludeBuildOutput>false</IncludeBuildOutput>
     <ContentTargetFolders>content</ContentTargetFolders>
